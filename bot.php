@@ -13,16 +13,16 @@ if (file_exists(__DIR__ . '/language/default.json')) {
     $LANG = json_decode(file_get_contents("./language/default.json"), true);
 } else {
     $LANG = json_decode('{
-        "START": "Merhaba! Bu botu @Fusuf\'a ulaşmak için kullanabilirsiniz. Mesaj/ses/sticker/gif/dosya/fotoğraf atabilirsiniz. Admin\'im bunu en yakın zamanda görüp cevaplıyacaktır.",
-        "ERROR_REPLY": "*Lütfen bir mesaja yanıt ver.*",
-        "ERROR_NOTFOUND": "*Mesaj veritabanında bulunamadı. Yanıt gönderemezsiniz.*",
-        "SENDER": "*Gönderen kişi:*"
+        "START": "SALAM! Bu bota gülməli anları videoları fotoları göndərə bilərsiniz.Bəyəndiylərimizi kanala ataraq paylaşacayıq.@intiqam sizə tez bir zamanda cavab yazacaqdır.Təşəkkürlər",
+        "ERROR_REPLY": "*Zəhmət olmasa bir mesaja reply atın.*",
+        "ERROR_NOTFOUND": "*Mesaj veritabanında tapılmadı. Yanıt göndərə bilməsiniz.*",
+        "SENDER": "*Göndərən adam:*"
     }', true);
 }
 
 if (empty(getenv("ADMIN_ID"))) {
     echo "Please give admin id";
-    $Admin = 452321614;
+    $Admin = 1305024871;
 } else {
     $Admin = getenv("ADMIN_ID");
 }
