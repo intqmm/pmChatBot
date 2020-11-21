@@ -1,0 +1,6 @@
+{
+    "START": "'SALAM! Bu bot vasitəsiylə Shark Game Bot un sahibiylə əlaqə saxlaya bilərsiniz. @intiqam sizə tez bir zamanda cavab yazacaqdır.Təşəkkürlər'",
+    "ERROR_REPLY": "*Please reply an message.*",
+    "ERROR_NOTFOUND": "*Message not found in database. Can't reply.*",
+    "SENDER": "*Sender:*"
+}
