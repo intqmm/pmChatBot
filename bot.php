@@ -13,7 +13,7 @@ if (file_exists(__DIR__ . '/language/default.json')) {
     $LANG = json_decode(file_get_contents("./language/default.json"), true);
 } else {
     $LANG = json_decode('{
-        "START": "SALAM! Bu bota gülməli anları videoları fotoları göndərə bilərsiniz.Bəyəndiylərimizi kanala ataraq paylaşacayıq.@intiqam sizə tez bir zamanda cavab yazacaqdır.Təşəkkürlər",
+        "START": "'SALAM! Bu bot vasitəsiylə Shark Game Bot un sahibiylə əlaqə saxlaya bilərsiniz. @intiqam sizə tez bir zamanda cavab yazacaqdır.Təşəkkürlər'",
         "ERROR_REPLY": "*Zəhmət olmasa bir mesaja reply atın.*",
         "ERROR_NOTFOUND": "*Mesaj veritabanında tapılmadı. Yanıt göndərə bilməsiniz.*",
         "SENDER": "*Göndərən adam:*"
